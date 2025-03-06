@@ -17,6 +17,7 @@ public class Main {
         print(animals, new CheckIfRun());
         //lambda syntax
         print(animals, a -> a.isCanRun() && a.isCanJump());
+        print(animals, a -> a.isCanRun());
 
     }
 
